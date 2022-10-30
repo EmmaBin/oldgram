@@ -1,9 +1,94 @@
 html, body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6C6C6;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+.hero{
+    background-color: #FFFFFF;
+}
+
+/* logo */
+#logo{
+    border-bottom: solid 1px #EDEDED;
+    margin-bottom: 15px;
+}
+.logo{
+    margin: 12px auto 1px 10px;
+    width: 100px;
+}
+
+header{
+    display: flex;
+}
+
+header img{
+    width: 45px;
+    height:45px;
+    border-radius: 55%;
+    margin-left: 10px;
+    margin-right:10px;
 }
 
 
-.hero{
-    text-align: center;
+.name-location h6{
+    padding-top: 4px;
+    padding-bottom:4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+}
+.name-location p{
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.post{
+    width: 100%;
+    margin-top:20px;
+}
+.container{
+    margin-left: 15px;
+}
+
+.icon-imgs{
+    margin-bottom: 0px;
+    margin-top:15px;
+}
+.container img{
+    width: 50px;
+    height:50px;
+    padding-right: 20px;
+}
+
+.container img:hover,
+.container img:focus{
+    opacity: 0.5;
+}
+
+
+.container p{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.user-name{
+    font-weight: 700;
+    font-size: 15px;
+    margin-right:10px;
+}
+
+h4{
+    font-weight: 300;
+    font-size: 15px;
 }

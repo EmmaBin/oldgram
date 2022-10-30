@@ -28,3 +28,13 @@ const posts = [
     }
 ]
 
+const heart = document.getElementById("heart")
+const likes = document.getElementById("likes")
+
+heart.addEventListener("click", function(){
+    let amount = Number(likes.innerHTML)
+    amount = amount +1
+    likes.textContent = amount
+    
+})
+

@@ -1,27 +1,37 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="hero">
-        <img src="images/logo.png" alt="oldgram">
+        <div id="logo">
+            <img src="images/logo.png" alt="oldgram" class="logo">
+        </div>
         <header>
-            <img src="images/avatar-vangogh.jpg" alt="avatar-vangogh">
-            <h6>Vincent van Gogh</h6>
-            <p>Zundert, Netherlands</p>
+            <img src="images/avatar-vangogh.jpg" alt="avatar-vangogh" class="avatar">
+            <div class="name-location">
+                <h6>Vincent van Gogh</h6>
+                <p>Zundert, Netherlands</p>
+            </div>
         </header>
         
-        <section>
+        <section class="post">
             <img src="images/post-vangogh.jpg" alt="post-vangogh">
         </section>
         
         <div class="container">
-            <img src="images/icon-heart.png" alt="heart">
+            <div class="icon-imgs">
+            <img src="images/icon-heart.png" alt="heart" id="heart">
             <img src="images/icon-comment.png" alt="comment">
             <img src="images/icon-dm.png" alt="dm">
-            <p>21 likes</p>
+            </div>
+            <p><span id="likes">21</span> likes</p>
             <h4><span class="user-name">vincey1853</span>just took a few mushrooms lol<h4>
         </div>
+        
         </div>
         <script src="index.js"></script>
     </body>
